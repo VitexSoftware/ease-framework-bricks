@@ -14,3 +14,6 @@ override_dh_install:
 	dh_install
 	sed -e "/includeCss/c\        \$$this->includeCss(\'\/javascript\/bootstrap\/css\/bootstrap-switch.css\');" -i debian/ease-framework-bricks/usr/share/php/EaseBricks/ui/TWBSwitch.php 
 	sed -e "/includeJavascript/c\        \$$this->includeJavascript(\'\/javascript\/bootstrap\/js\/bootstrap-switch.js\');"   -i debian/ease-framework-bricks/usr/share/php/EaseBricks/ui/TWBSwitch.php 
+	sed -e "/selectize/.css/c\        \$$this->includeCss(\'\/javascript\/selectize.js\/css\/selectize.css\');" -i debian/ease-framework-bricks/usr/share/php/EaseBricks/ui/Selectizer.php 
+	sed -e "/selectize\.bootstrap3\.css/c\        \$$this->includeCss(\'\/javascript\/selectize.js\/css\/selectize.bootstrap3.css\');" -i debian/ease-framework-bricks/usr/share/php/EaseBricks/ui/Selectizer.php 
+	sed -e "/includeJavascript/c\        \$$this->includeJavascript(\'\/javascript\/selectize.js\/selectize.min.js\');"   -i debian/ease-framework-bricks/usr/share/php/EaseBricks/ui/Selectizer.php 
