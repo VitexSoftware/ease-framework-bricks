@@ -1,6 +1,9 @@
 {
     "name": "vitexsoftware/ease-bricks",
     "description": "EasePHPframework addons and code snipplets",
+    "conflict" {
+	"vitexsoftware/php-ease-bricks"
+    }
     "authors": [
         {
             "name": "Vítězslav Dvořák",
