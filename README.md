@@ -1,7 +1,10 @@
 ![EasePHP Framework Logo](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/project-logo.png "Project Logo")
 
+ :exclamation: Tato knihovna bude označena za zastaralou. Věnujte prosím pozornost její odlehčené nástupkyni https://github.com/VitexSoftware/php-ease-bricks :exclamation: 
+
 EasePHP Bricks
 =================
+
 
 Object oriented PHP Framework for easy&fast writing small/middle sized apps.
 
