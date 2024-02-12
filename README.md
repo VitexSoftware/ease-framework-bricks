@@ -1,6 +1,9 @@
 ![EasePHP Framework Logo](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/project-logo.png "Project Logo")
 
- :exclamation: Tato knihovna bude označena za zastaralou. Věnujte prosím pozornost její odlehčené nástupkyni https://github.com/VitexSoftware/php-ease-bricks :exclamation: 
+ :exclamation: Tato knihovna bude označena za zastaralou. Věnujte prosím pozornost jejím nástupkyním 
+* https://github.com/VitexSoftware/php-ease-bricks 
+* https://github.com/VitexSoftware/php-vitexsoftware-ease-html-widgets
+ :exclamation: 
 
 EasePHP Bricks
 =================
